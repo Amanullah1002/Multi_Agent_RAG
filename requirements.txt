@@ -1,0 +1,31 @@
+# requirements.txt
+# Multi-Agent RAG System
+# Python 3.10+
+python-dotenv
+
+# LLM & Orchestration
+langchain>=0.2.0
+langchain-groq>=0.1.6
+langchain-huggingface>=0.0.3
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+langgraph>=0.1.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+torch>=2.0.0
+
+# SQL Parsing & Safety
+sqlparse>=0.5.0
+
+# Numerical / Scientific
+numpy>=1.26.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+tavily-python==0.7.21

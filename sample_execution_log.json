@@ -1,0 +1,135 @@
+[
+  {
+    "query": "How many employees are eligible for LTA as per the policy?",
+    "timestamp": "2026-02-19T10:28:30",
+    "agents_invoked": {
+      "A": "Agent A — RAG Retriever",
+      "B": "Agent B — SQL Agent"
+    },
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c35afbed99da",
+        "source": "HR Leave Policy",
+        "score": 0.716,
+        "preview": "LTA is available to all permanent employees who have completed at least 1 year of service. Employees can claim LTA twice in a block of 4 years. The maximum LTA claimable is 1 month basic salary per trip."
+      },
+      {
+        "chunk_id": "692307a7f5f3",
+        "source": "Employee Benefits Overview",
+        "score": 1.1094,
+        "preview": "Health & Wellness Benefits FY 2024. HEALTH INSURANCE All employees receive group health insurance from Day 1 of joining."
+      }
+    ],
+    "sql_agent": {
+      "query_executed": "SELECT COUNT(*)\nFROM employees\nWHERE is_permanent = 1\nAND years_of_service >= 1.0;",
+      "sample_results": [{ "COUNT(*)": 9 }],
+      "rows_returned": 1
+    },
+    "web_search": null,
+    "final_answer": "9 employees are eligible for LTA as per the policy. [DB]\nEligibility requires permanent status with at least 1 year of service. [CHUNK_c35afbed99da]\n\nReferences: [DB], [CHUNK_c35afbed99da]",
+    "execution_trace": [
+      { "timestamp": "2026-02-19T10:28:27", "agent": "Agent B — SQL Agent",        "action": "sql_query" },
+      { "timestamp": "2026-02-19T10:28:30", "agent": "Agent A — RAG Retriever",    "action": "retrieve" },
+      { "timestamp": "2026-02-19T10:28:30", "agent": "Agent C — Answer Synthesizer","action": "synthesis_with_enforced_citations" }
+    ]
+  },
+  {
+    "query": "What is the maximum LTA amount an employee can claim?",
+    "timestamp": "2026-02-19T10:29:05",
+    "agents_invoked": {
+      "A": "Agent A — RAG Retriever",
+      "E": "Agent E — Reasoning (LLM)"
+    },
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c35afbed99da",
+        "source": "HR Leave Policy",
+        "score": 0.821,
+        "preview": "The maximum LTA claimable is 1 month basic salary per trip. LTA covers travel expenses for self and immediate family (spouse + up to 2 children)."
+      }
+    ],
+    "sql_agent": null,
+    "web_search": null,
+    "final_answer": "The maximum LTA an employee can claim is 1 month basic salary per trip. [CHUNK_c35afbed99da]\nClaims must be submitted within 3 months of travel. Only domestic travel qualifies. [CHUNK_c35afbed99da]\n\nReferences: [CHUNK_c35afbed99da]",
+    "execution_trace": [
+      { "timestamp": "2026-02-19T10:29:03", "agent": "Agent A — RAG Retriever",    "action": "retrieve" },
+      { "timestamp": "2026-02-19T10:29:05", "agent": "Agent C — Answer Synthesizer","action": "synthesis_with_enforced_citations" }
+    ]
+  },
+  {
+    "query": "Compare our remote work policy with industry best practices for 2024",
+    "timestamp": "2026-02-19T10:29:45",
+    "agents_invoked": {
+      "A": "Agent A — RAG Retriever",
+      "D": "Agent D — Web Search"
+    },
+    "retrieved_chunks": [
+      {
+        "chunk_id": "86803cedeced",
+        "source": "Remote Work Policy",
+        "score": 1.075,
+        "preview": "Work From Home Guidelines (Updated: Jan 2024). ELIGIBILITY: Employees who have completed 6 months of probation are eligible for remote work."
+      },
+      {
+        "chunk_id": "6691d9b3cb89",
+        "source": "Remote Work Policy",
+        "score": 1.145,
+        "preview": "EQUIPMENT & CONNECTIVITY: The company provides a one-time stipend of $500 for home office setup. VPN usage is mandatory when accessing company resources remotely."
+      }
+    ],
+    "sql_agent": null,
+    "web_search": {
+      "snippets_retrieved": 3,
+      "results": [
+        "EV sales in US hit 1.2M units in 2023, up 40% YoY.",
+        "Tesla, GM, Ford lead US EV market as of 2024.",
+        "Charging infrastructure is the main bottleneck for growth."
+      ]
+    },
+    "final_answer": "Our remote work policy (Jan 2024) allows WFH up to 2 days/week after 6 months probation. [CHUNK_86803cedeced]\nA $500 home office stipend and mandatory VPN are provided. [CHUNK_6691d9b3cb89]\nIndustry trend: many companies moved to 3-5 days flexible remote in 2024. [Web]\n\nReferences: [CHUNK_86803cedeced], [CHUNK_6691d9b3cb89], [Web]",
+    "execution_trace": [
+      { "timestamp": "2026-02-19T10:29:42", "agent": "Agent D — Web Search",       "action": "web_search" },
+      { "timestamp": "2026-02-19T10:29:44", "agent": "Agent A — RAG Retriever",    "action": "retrieve" },
+      { "timestamp": "2026-02-19T10:29:45", "agent": "Agent C — Answer Synthesizer","action": "synthesis_with_enforced_citations" }
+    ]
+  },
+  {
+    "query": "What is RAG and why is it useful?",
+    "timestamp": "2026-02-19T10:30:10",
+    "agents_invoked": {
+      "E": "Agent E — Reasoning (LLM)"
+    },
+    "retrieved_chunks": [],
+    "sql_agent": null,
+    "web_search": null,
+    "final_answer": "RAG (Retrieval Augmented Generation) is an AI architecture that combines document retrieval with LLM generation. [LLM]\nIt reduces hallucinations by grounding answers in retrieved knowledge, improving accuracy and domain relevance. [LLM]\n\nReferences: [LLM]",
+    "execution_trace": [
+      { "timestamp": "2026-02-19T10:30:08", "agent": "Agent E — Reasoning (LLM)",  "action": "reasoning" },
+      { "timestamp": "2026-02-19T10:30:10", "agent": "Agent C — Answer Synthesizer","action": "synthesis_with_enforced_citations" }
+    ]
+  },
+  {
+    "query": "List employees in Engineering and explain the department structure",
+    "timestamp": "2026-02-19T10:30:55",
+    "agents_invoked": {
+      "A": "Agent A — RAG Retriever",
+      "B": "Agent B — SQL Agent"
+    },
+    "retrieved_chunks": [],
+    "sql_agent": {
+      "query_executed": "SELECT e.name AS employee_name, d.name AS department_name\nFROM employees e\nJOIN departments d ON e.department_id = d.id\nWHERE d.name = 'Engineering';",
+      "sample_results": [
+        { "employee_name": "Alice Johnson", "department_name": "Engineering" },
+        { "employee_name": "Bob Smith",     "department_name": "Engineering" },
+        { "employee_name": "Karen Clark",   "department_name": "Engineering" }
+      ],
+      "rows_returned": 3
+    },
+    "web_search": null,
+    "final_answer": "The Engineering department has 3 employees: Alice Johnson, Bob Smith, and Karen Clark. [DB]\nThe department structure is not detailed in available documents.\n\nReferences: [DB]",
+    "execution_trace": [
+      { "timestamp": "2026-02-19T10:30:52", "agent": "Agent B — SQL Agent",         "action": "sql_query" },
+      { "timestamp": "2026-02-19T10:30:55", "agent": "Agent C — Answer Synthesizer","action": "synthesis_with_enforced_citations" }
+    ]
+  }
+]

@@ -1,0 +1,171 @@
+DOCUMENT 1 — HR Leave Policy
+=====================================
+Leave & Allowance Policy (Effective FY 2024-25)
+
+1. ANNUAL LEAVE
+All full-time employees are entitled to 18 days of paid annual leave per year.
+Part-time employees receive leave on a pro-rata basis.
+Unused leave can be carried forward up to 10 days to the next calendar year.
+
+2. SICK LEAVE
+Employees are entitled to 12 days of sick leave per year.
+A medical certificate is required for sick leave exceeding 3 consecutive days.
+
+3. LEAVE TRAVEL ALLOWANCE (LTA)
+LTA is available to all permanent employees who have completed at least 1 year of service.
+Employees can claim LTA twice in a block of 4 years.
+The maximum LTA claimable is 1 month's basic salary per trip.
+LTA covers travel expenses for self and immediate family (spouse + up to 2 children).
+Claims must be submitted within 3 months of travel completion.
+Only domestic travel within the country qualifies for LTA.
+
+4. MATERNITY / PATERNITY LEAVE
+Maternity leave: 26 weeks for the first two children, 12 weeks for third child onward.
+Paternity leave: 5 days for male employees within 6 months of child's birth.
+
+5. BEREAVEMENT LEAVE
+3 days of paid bereavement leave for immediate family members.
+1 day for extended family members.
+
+
+DOCUMENT 2 — Remote Work Policy
+=====================================
+Work From Home (WFH) Guidelines (Updated: Jan 2024)
+
+ELIGIBILITY
+Employees who have completed 6 months of probation are eligible for remote work.
+All remote work arrangements must be approved by the direct manager.
+
+WFH LIMITS
+Employees may work from home up to 2 days per week.
+Roles marked as "on-site required" are not eligible for WFH.
+
+EQUIPMENT & CONNECTIVITY
+The company provides a one-time stipend of $500 for home office setup.
+Employees are responsible for maintaining reliable internet connectivity.
+VPN usage is mandatory when accessing company resources remotely.
+
+PERFORMANCE
+Remote employees are held to the same performance standards as on-site employees.
+A 3-month WFH review is conducted by the manager.
+
+
+DOCUMENT 3 — Employee Benefits Overview
+=====================================
+Health & Wellness Benefits (FY 2024)
+
+HEALTH INSURANCE
+All employees receive group health insurance from Day 1 of joining.
+Coverage includes: hospitalization, outpatient, dental (basic), vision (annual checkup).
+Sum insured: $50,000 per employee, $80,000 for family floater.
+Pre-existing conditions covered after a 2-year waiting period.
+
+MENTAL HEALTH SUPPORT
+Free access to 6 counseling sessions per year via our EAP (Employee Assistance Program).
+Mental health days: 2 additional paid days per year for mental wellness.
+
+RETIREMENT / PROVIDENT FUND
+Company contributes 12% of basic salary to the provident fund.
+Employee contribution: minimum 12% of basic salary.
+Vesting period: 5 years for full employer contribution vesting.
+
+WELLNESS ALLOWANCE
+$300 annual wellness allowance (gym, yoga, meditation apps, etc.).
+Claims submitted through the HR portal by March 31 each year.
+
+
+DOCUMENT 4 — Performance Review Process
+=====================================
+Annual Performance Review (APR) Guidelines
+
+REVIEW CYCLE
+Performance reviews happen twice a year: mid-year (June) and year-end (December).
+New joiners are reviewed at the 6-month mark.
+
+RATINGS SCALE
+5 — Exceptional: Consistently exceeds all targets
+4 — Exceeds Expectations: Frequently surpasses goals
+3 — Meets Expectations: Achieves all set goals
+2 — Needs Improvement: Partially achieves goals
+1 — Unsatisfactory: Fails to meet basic expectations
+
+PROMOTION CRITERIA
+Employees must score 4 or above in two consecutive reviews to be eligible for promotion.
+Promotions are effective from the beginning of the next financial year.
+Salary revision range: 8–20% for promotions, 3–8% for merit increments.
+
+FEEDBACK PROCESS
+360-degree feedback is collected from peers, subordinates, and managers.
+Employees must complete self-evaluation 1 week before the review date.
+
+
+DOCUMENT 5 — Company Expense Policy
+=====================================
+Business Expense Reimbursement Policy
+
+TRAVEL EXPENSES
+Domestic flights: Economy class only.
+International flights: Business class for flights > 8 hours.
+Hotel: Up to $150/night domestic, $250/night international.
+Meal per diem: $40/day domestic, $75/day international.
+
+APPROVAL WORKFLOW
+Expenses under $500: Direct manager approval.
+Expenses $500–$2000: Manager + Finance team approval.
+Expenses above $2000: CFO approval required.
+
+SUBMISSION DEADLINE
+All expense reports must be submitted within 30 days of incurring the expense.
+Late submissions require VP-level approval.
+
+PROHIBITED EXPENSES
+Personal entertainment, alcohol purchases, luxury hotels, and first-class upgrades
+are not reimbursable unless specifically pre-approved by the C-suite.
+
+
+DOCUMENT 6 — Onboarding Process
+=====================================
+New Employee Onboarding (2024 Edition)
+
+WEEK 1 — ORIENTATION
+Day 1: IT setup, access credentials, welcome session with HR.
+Day 2–3: Introduction to team, product/service walkthrough.
+Day 4–5: Compliance training (mandatory — Data Privacy, Code of Conduct).
+
+MONTH 1 GOALS
+Complete mandatory e-learning modules (10 modules in total).
+Set 90-day goals with manager.
+Shadow at least 3 customer-facing calls (for client-facing roles).
+
+BUDDY PROGRAM
+Each new joiner is assigned a buddy from their team.
+Buddy check-ins happen weekly for the first 30 days, then monthly for 90 days.
+
+PROBATION PERIOD
+Standard probation: 6 months.
+Evaluation at 3 months and 6 months.
+Successful completion leads to confirmation and eligibility for all benefits.
+
+
+DOCUMENT 7 — Data Privacy Policy
+=====================================
+Data Privacy & Security Guidelines
+
+PERSONAL DATA HANDLING
+Employees must not share customer data externally without explicit authorization.
+All personal data processed must comply with GDPR (for EU customers) and local laws.
+Data retention: Customer data is kept for 7 years post-contract, then deleted.
+
+DEVICE & ACCESS SECURITY
+Strong passwords required (minimum 12 characters, alphanumeric + symbol).
+Two-factor authentication (2FA) is mandatory for all company accounts.
+Employees must not use personal devices for accessing confidential company data.
+
+BREACH PROTOCOL
+Any suspected data breach must be reported to the IT Security team within 1 hour.
+The DPO (Data Protection Officer) must be notified within 24 hours.
+External reporting to regulators required within 72 hours for confirmed breaches.
+
+TRAINING
+Annual data privacy training is mandatory for all employees.
+Employees handling sensitive data undergo quarterly refresher training.

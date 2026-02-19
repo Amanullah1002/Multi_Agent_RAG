@@ -1,0 +1,22 @@
+DOCUMENT 5 — Company Expense Policy
+=====================================
+Business Expense Reimbursement Policy
+
+TRAVEL EXPENSES
+Domestic flights: Economy class only.
+International flights: Business class for flights > 8 hours.
+Hotel: Up to $150/night domestic, $250/night international.
+Meal per diem: $40/day domestic, $75/day international.
+
+APPROVAL WORKFLOW
+Expenses under $500: Direct manager approval.
+Expenses $500-$2000: Manager + Finance team approval.
+Expenses above $2000: CFO approval required.
+
+SUBMISSION DEADLINE
+All expense reports must be submitted within 30 days of incurring the expense.
+Late submissions require VP-level approval.
+
+PROHIBITED EXPENSES
+Personal entertainment, alcohol purchases, luxury hotels, and first-class upgrades
+are not reimbursable unless specifically pre-approved by the C-suite.

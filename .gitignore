@@ -1,0 +1,235 @@
+# =========================
+
+# OS / System Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+
+# Python Bytecode
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+
+# Python Packaging
+
+# =========================
+
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# =========================
+
+# Environment Variables / Secrets
+
+# =========================
+new_env
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+config/secrets.yaml
+
+# =========================
+
+# IDE / Editors
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# =========================
+
+# Testing / Coverage
+
+# =========================
+
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# =========================
+
+# Data / Artifacts
+
+# =========================
+
+data/
+datasets/
+artifacts/
+outputs/
+predictions/
+reports/
+
+# =========================
+
+# ML Models
+
+# =========================
+
+models/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+
+# =========================
+
+# Vector Databases / Indexes
+
+# =========================
+
+faiss_index/
+faiss_store/
+chroma/
+chromadb/
+vectorstore/
+*.faiss
+*.index
+
+# =========================
+
+# LangChain / RAG Artifacts
+
+# =========================
+
+.langchain/
+lc_cache/
+rag_cache/
+retriever_cache/
+
+# =========================
+
+# Cassandra / DB Temp
+
+# =========================
+
+cassandra_data/
+# *.db
+*.sqlite3
+
+# =========================
+
+# HuggingFace / Transformers
+
+# =========================
+
+.huggingface/
+cache/huggingface/
+hf_cache/
+
+# =========================
+
+# Torch / CUDA
+
+# =========================
+
+torch_cache/
+*.cuda
+
+# =========================
+
+# Docker
+
+# =========================
+
+docker-compose.override.yml
+*.tar
+
+# =========================
+
+# Terraform / Infra
+
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# =========================
+
+# Node (if frontend exists)
+
+# =========================
+
+node_modules/
+dist/
+build/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.tmp
+*.bak
+*.old
+*.swp
+
+# =========================
+
+# Allow important examples
+
+# =========================
+
+!data/sample/
+!datasets/README.md

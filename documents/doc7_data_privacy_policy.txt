@@ -1,0 +1,22 @@
+DOCUMENT 7 — Data Privacy Policy
+=====================================
+Data Privacy & Security Guidelines
+
+PERSONAL DATA HANDLING
+Employees must not share customer data externally without explicit authorization.
+All personal data processed must comply with GDPR (for EU customers) and local laws.
+Data retention: Customer data is kept for 7 years post-contract, then deleted.
+
+DEVICE & ACCESS SECURITY
+Strong passwords required (minimum 12 characters, alphanumeric + symbol).
+Two-factor authentication (2FA) is mandatory for all company accounts.
+Employees must not use personal devices for accessing confidential company data.
+
+BREACH PROTOCOL
+Any suspected data breach must be reported to the IT Security team within 1 hour.
+The DPO (Data Protection Officer) must be notified within 24 hours.
+External reporting to regulators required within 72 hours for confirmed breaches.
+
+TRAINING
+Annual data privacy training is mandatory for all employees.
+Employees handling sensitive data undergo quarterly refresher training.

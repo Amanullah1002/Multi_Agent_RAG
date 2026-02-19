@@ -1,0 +1,68 @@
+{
+  "query": "How many employees are eligible for LTA as per the policy?",
+  "timestamp": "2026-02-19T11:47:02.712725",
+  "agents_invoked": {
+    "A": "Agent A \u2014 RAG Retriever",
+    "B": "Agent B \u2014 SQL Agent"
+  },
+  "retrieved_chunks": [
+    {
+      "chunk_id": "c35afbed99da",
+      "source": "HR Leave Policy",
+      "score": 0.716,
+      "preview": "3. LEAVE TRAVEL ALLOWANCE (LTA) LTA is available to all permanent employees who have completed at least 1 year of service. Employees can claim LTA twice in a block of 4 years. The maximum LTA claimabl"
+    },
+    {
+      "chunk_id": "456d9880b989",
+      "source": "HR Leave Policy",
+      "score": 1.1275,
+      "preview": "DOCUMENT 1 \u2014 HR Leave Policy ===================================== Leave & Allowance Policy (Effective FY 2024-25)  1. ANNUAL LEAVE All full-time employees are entitled to 18 days of paid annual leave"
+    },
+    {
+      "chunk_id": "a68fadcc69a1",
+      "source": "Remote Work Policy",
+      "score": 1.1492,
+      "preview": "DOCUMENT 2 \u2014 Remote Work Policy ===================================== Work From Home (WFH) Guidelines (Updated: Jan 2024)  ELIGIBILITY Employees who have completed 6 months of probation are eligible f"
+    },
+    {
+      "chunk_id": "0ba666f880b9",
+      "source": "Employee Benefits Overview",
+      "score": 1.2397,
+      "preview": "DOCUMENT 3 \u2014 Employee Benefits Overview ===================================== Health & Wellness Benefits (FY 2024)  HEALTH INSURANCE All employees receive group health insurance from Day 1 of joining."
+    },
+    {
+      "chunk_id": "65dde1b761de",
+      "source": "Data Privacy Policy",
+      "score": 1.3448,
+      "preview": "DEVICE & ACCESS SECURITY Strong passwords required (minimum 12 characters, alphanumeric + symbol). Two-factor authentication (2FA) is mandatory for all company accounts. Employees must not use persona"
+    }
+  ],
+  "sql_agent": {
+    "query_executed": "SELECT COUNT(*)\nFROM employees\nWHERE is_permanent = 1\nAND years_of_service >= 1.0;",
+    "sample_results": [
+      {
+        "COUNT(*)": 9
+      }
+    ],
+    "rows_returned": 1
+  },
+  "web_search": null,
+  "final_answer": "9 employees are eligible for LTA as per the policy. This information is derived from the database answer \"COUNT(*)=9\". \n\nReferences: [DB]",
+  "execution_trace": [
+    {
+      "timestamp": "2026-02-19T11:46:58.855906",
+      "agent": "Agent B \u2014 SQL Agent",
+      "action": "sql_query"
+    },
+    {
+      "timestamp": "2026-02-19T11:47:02.575238",
+      "agent": "Agent A \u2014 RAG Retriever",
+      "action": "retrieve"
+    },
+    {
+      "timestamp": "2026-02-19T11:47:02.688814",
+      "agent": "agent_c",
+      "action": "synthesis_with_enforced_citations"
+    }
+  ]
+}
